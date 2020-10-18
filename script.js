@@ -10,7 +10,7 @@ msg.text = document.querySelector('[name="text"]').value;
 function populateVoices() {
     voices = this.getVoices();
     const voiceOptions = voices
-    .filter((voice) => voice.lang.includes("en"))
+//     .filter((voice) => voice.lang.includes("en")) 
     .map(
         (voice) =>
         `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`
