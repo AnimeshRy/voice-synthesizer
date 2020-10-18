@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Speech Synthesis</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="ribbon">
+        <a href="http://www.github.com/AnimeshRy"><i class="fa fa-github"
+                style="font-size:48px;color:rgb(15, 13, 13); margin-top: 45px; margin-left: 27px;"></i></a>
+    </div>
+    <div class="voiceinator">
+
+        <h1>Voice Synthesizer</h1>
+
+        <select name="voice" id="voices">
+            <option value="">Select A Voice</option>
+        </select>
+
+        <label for="rate">Rate:</label>
+        <input name="rate" type="range" min="0" max="3" value="1" step="0.1">
+
+        <label for="pitch">Pitch:</label>
+
+        <input name="pitch" type="range" min="0" max="2" step="0.1">
+        <textarea name="text">Siri is so boring 👍</textarea>
+        <button id="stop">Stop!</button>
+        <button id="speak">Speak</button>
+
+    </div>
+
+
+</body>
+
+</html>
